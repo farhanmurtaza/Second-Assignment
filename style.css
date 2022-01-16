@@ -121,3 +121,34 @@ text-align: justify;
    background-color: darkgray;
    
 }
+.image{
+
+    border: 2px solid white;
+    box-shadow: 5px;
+    padding: 20px;
+    background-color: whitesmoke;
+   
+   
+}
+.fa-star{
+
+    color: orange;
+}
+.footer{
+
+    background-color: #0A0826;
+    color: whitesmoke;
+    padding-left: 750px;
+   
+}
+@media only screen and (max-width:688px){
+    .start-journey{
+        width: 100%;
+    }
+    .container-grid,.camera,.grid-container{
+
+        background-color: whitesmoke;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
