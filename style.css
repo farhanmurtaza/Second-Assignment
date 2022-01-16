@@ -2,3 +2,122 @@ body{
 
     font-family: 'Poppins', sans-serif;
 }
+header{
+
+position: absolute;
+margin-left: 120px;
+
+top: 2.63%;
+bottom: 95.79%;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+font-feature-settings: 'liga' off;
+
+color: #3A3A3A;
+
+}
+
+.heading{
+position: absolute;
+width: 552px;
+height: 270px;
+margin-left: 120px;
+top: 285px;
+font-weight: bold;
+font-size: 30px;
+line-height: 70%;
+}
+#influencer{
+position: static;
+left: 8.33%;
+top: 13.13%;
+bottom: 85.03%;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+font-feature-settings: 'liga' off;
+
+color: #3A3A3A;
+text-align: justify;
+
+}
+/* #prebook , #fas{
+
+    text-decoration: none;
+    font-size: 12px;
+    background-color: #E02C6D;
+    color: white;
+    border: 1px solid;
+    font-weight: 300;
+    border-radius: 7px;
+    padding: 10px;
+    
+} */
+.icon a {
+
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    background-color: tomato;
+    padding: auto;
+    border-radius: 5px;
+    padding: 10px
+
+
+   
+    
+}
+.fa-arrow-right{
+
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.camera{
+    margin-top: 20px;
+    margin-left: 900px;
+   
+}
+/* 
+.start-journey{
+
+    display: flex;
+    flex-direction: row;
+
+} */
+
+.camera img{
+
+    width: 600px;
+}
+#populars{
+
+    width: 262px;
+    height: 70px;
+    left: 588px;
+    top: 935px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 70px;
+    align-content: center;
+    padding-left: 800px;
+}
+.grid-container{
+
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    width: 50%;
+}
+.container{
+
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 40px;
+   background-color: darkgray;
+   
+}
